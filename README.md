@@ -13,7 +13,7 @@
   保存路径为 sublime安装目录/data/Packages/ChatWithDeepSeek/temp 目录中
   <br><br>
 * 导入对话,对话内容以json数据格式保存并导入
-  ```
+  ```json
   {
     "data":
     [
@@ -39,4 +39,11 @@
         }
     ]
   }
-```
+##  配置
+* api_key:前往DeepSeek官网,注册账号-充值金额-创建apikey,将创建的apikey复制到配置文件即可
+* name:在对话时显示的用户名称
+* ai_name:在对话时显示的ai名称
+* interval:对话时用户和ai对话时之前的空行数量
+* show_line_number:是否显示对话行号
+* prefix:每一次对话时的自定义前缀,该语句将被添加到每一次提问的最前方
+
