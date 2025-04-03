@@ -40,6 +40,7 @@
     ]
   }
 ##  配置
+首选项-Package Settings-ChatWithDeepSeek-setting
 * api_key:前往DeepSeek官网,注册账号-充值金额-创建apikey,将创建的apikey复制到配置文件即可
 * name:在对话时显示的用户名称
 * ai_name:在对话时显示的ai名称
