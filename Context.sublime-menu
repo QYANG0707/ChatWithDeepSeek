@@ -1,0 +1,36 @@
+[
+    {
+        "caption": "-",
+        "id": "chat"
+    },
+    {
+        "caption": "DeepSeek",
+        "children":
+        [
+            {
+                "caption": "创建临时对话(对话记录不保存)",
+                "command": "chat",
+                "args":
+                {
+                    "view_type": "temp"
+                }
+            },
+            {
+                "caption": "创建记录对话(关闭时自动保存对话记录)",
+                "command": "chat",
+                "args":
+                {
+                    "view_type": "record"
+                }
+            },
+            {
+                "caption": "导入对话",
+                "command": "chat",
+                "args":
+                {
+                    "view_type": "import"
+                }
+            }
+        ]
+    }
+]

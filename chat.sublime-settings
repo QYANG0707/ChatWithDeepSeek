@@ -1,0 +1,10 @@
+{
+    
+    "api_key":"",//请添加你的api-key
+    "name":"User",//对话时显示的用户名称
+    "ai_name":"DeepSeek",//对话时显示的ai名称
+    "interval":2 ,// 双方对话之间的空行数量
+    "show_line_number":false,//是否显示行号
+    "prefix":""//每次对话时自定义前缀
+
+}
