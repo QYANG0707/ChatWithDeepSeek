@@ -12,7 +12,7 @@
 * 创建记录对话,在对话结束后,关闭对话视图后,对话内容会自动保存<br>
   保存路径为 sublime安装目录/data/Packages/ChatWithDeepSeek/temp 目录中
   <br><br>
-* 导入对话,对话内容以json数据格式进行导入
+* 导入对话,对话内容以json数据格式保存并导入
   ```
   {
     "data":
