@@ -37,9 +37,9 @@ class ViewCloseDetector(sublime_plugin.EventListener):
                         if record_name:
                             path = record_name
                         else:
-                            path = './temp/' + get_time(True) + '.json'
-                        print(path)
-                        with open(path, 'w') as file:
+                            path = os.path.dirname(os.path.abspath(__file__)) + '/temp/' + get_time(True) + '.json'
+
+                        with open(path, 'w+', encoding='utf-8') as file:
                             data = {"data": messages}
                             json.dump(data, file)
 
@@ -106,7 +106,7 @@ class ChatCommand(sublime_plugin.WindowCommand):
                 self.window.run_command('append', {'characters': content})
 
             self.window.run_command('append', {'characters': '\n' * 3})
-            print('finish')
+            # print('finish')
             messages.append({"role": "assistant", "content": ai_content, "time": get_time()})
 
             self.show_in()

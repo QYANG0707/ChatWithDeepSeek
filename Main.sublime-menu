@@ -17,7 +17,7 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/ChatWithDeepseek/README.md"},
+                                "args": {"file": "${packages}/ChatWithDeepSeek/README.md"},
                                 "caption": "README"
                             },
                             { "caption": "-" },
@@ -25,7 +25,7 @@
                                 "caption": "Settings",
                                 "command": "edit_settings",
                                 "args": {
-                                    "base_file": "${packages}/ChatWithDeepseek/chat.sublime-settings"
+                                    "base_file": "${packages}/ChatWithDeepSeek/chat.sublime-settings"
                                 }
                             }
                         ]
