@@ -5,6 +5,6 @@
     "ai_name":"DeepSeek",//对话时显示的ai名称
     "interval":2 ,// 双方对话之间的空行数量
     "show_line_number":false,//是否显示行号
-    "prefix":""//每次对话时自定义前缀
+    "prefix":"简易回答,"//每次对话时自定义前缀
 
 }
