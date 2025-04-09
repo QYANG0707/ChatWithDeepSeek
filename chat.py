@@ -45,7 +45,15 @@ class ViewCloseDetector(sublime_plugin.EventListener):
 
 
 class ChatCommand(sublime_plugin.WindowCommand):
-    def run(self, view_type):
+    def run(self, view_type=None, action=None):
+
+        # 根据action参数调用不同方法
+        if action == "show_in":
+            self.show_in()
+            return
+        # else:
+        #     sublime.error_message("未指定的操作")
+
         '''主程序入口'''
         global types
         types = view_type

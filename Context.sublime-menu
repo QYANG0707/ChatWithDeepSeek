@@ -30,6 +30,11 @@
                 {
                     "view_type": "import"
                 }
+            },
+            {
+                "caption": "打开输入框",
+                "command": "chat",
+                "args":{"action":"show_in"}
             }
         ]
     }
